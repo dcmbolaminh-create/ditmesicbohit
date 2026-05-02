@@ -1375,7 +1375,7 @@ app.get("/api/sicbo/hitclub", async () => {
     
     if (!last_result || !current_prediction) {
         return {
-            "id": "@tiendataox",
+            "id": "@vanminh2603",
             "phien_truoc": null,
             "xuc_xac1": null,
             "xuc_xac2": null,
@@ -1390,7 +1390,7 @@ app.get("/api/sicbo/hitclub", async () => {
     }
 
     return {
-        "id": "@tienndataox",
+        "id": "@vanminh2603",
         "phien_truoc": last_result.session,
         "xuc_xac1": last_result.dice[0],
         "xuc_xac2": last_result.dice[1],
