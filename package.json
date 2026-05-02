@@ -1,0 +1,28 @@
+{
+  "name": "sicbo-ai-vip",
+  "version": "1.0.0",
+  "description": "AI Tài Xỉu VIP - chạy mượt tiếng Việt",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "sicbo",
+    "ai",
+    "taixiu",
+    "predict",
+    "nodejs"
+  ],
+  "author": "@vanminh2603",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "@fastify/cors": "^8.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
